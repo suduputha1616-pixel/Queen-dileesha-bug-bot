@@ -24,7 +24,7 @@ ALWAYS_RECORDING: process.env.ALWAYS_RECORDING === undefined ? "true" : process.
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
 BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD_NO_BLOCK,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
-ANTI_CALL: process.env.ANTI_CALL === undefined ? "true" : process.env.ANTI_CALL,
+ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL,
 ALWAYS_TYPING: process.env.ALWAYS_TYPING === undefined ? "false" : process.env.ALWAYS_TYPING,
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
